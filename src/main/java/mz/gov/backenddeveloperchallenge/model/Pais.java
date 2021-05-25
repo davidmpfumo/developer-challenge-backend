@@ -1,14 +1,12 @@
 package mz.gov.backenddeveloperchallenge.model;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 
-import javax.persistence.*;
-
-@Data
-@RequiredArgsConstructor
 @Entity
 @Table(name = "pais")
 public class Pais {
