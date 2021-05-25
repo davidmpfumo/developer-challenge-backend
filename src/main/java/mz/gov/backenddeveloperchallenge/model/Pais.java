@@ -28,11 +28,11 @@ public class Pais {
 
 	}
 
-	public Pais(@NonNull String nome) {
+	public Pais(String nome) {
 		this.nome = nome;
 	}
 	
-	public Pais(@NonNull String nome, String capital, String regiao, String subRegiao, String area) {
+	public Pais(String nome, String capital, String regiao, String subRegiao, String area) {
 		this.nome = nome;
 		this.capital = capital;
 		this.regiao = regiao;
