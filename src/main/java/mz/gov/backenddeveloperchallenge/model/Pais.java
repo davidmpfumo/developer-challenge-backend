@@ -8,7 +8,6 @@ import lombok.RequiredArgsConstructor;
 import javax.persistence.*;
 
 @Data
-@NoArgsConstructor
 @RequiredArgsConstructor
 @Entity
 @Table(name = "pais")
